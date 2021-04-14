@@ -19,6 +19,14 @@ const { ready } = require("./handlers/ready.js")
 
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => res.send('COSMOS bot is hosted'));
+
+app.listen(port, () => console.log(`cosmos is hosted at http://localhost:${port}`));
+
 
 ["command"].forEach(handler => {
   require(`./handlers/${handler}`)(client);
