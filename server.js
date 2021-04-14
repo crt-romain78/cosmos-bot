@@ -204,7 +204,7 @@ client.on("guildCreate", guild => {
 // Set the bot's online/idle/dnd/invisible status
 client.on("ready", () => {
     client.user.setStatus("online");
-    console.log("automodv12 beta is ready join support server https://dsc.gg/kmdevs")
+    console.log("cosmos beta is ready join support server https://dsc.gg/crt")
 });
 
 
