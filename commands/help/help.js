@@ -3,7 +3,7 @@ const { readdirSync } = require("fs");
 const prefix = "c!"
 
 module.exports = {
-  name: "cmds",
+  name: "help",
   aliases : ['h'],
   description: "Shows all available bot commands.",
   run: async (client, message, args) => {
