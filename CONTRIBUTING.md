@@ -1,1 +1,0 @@
-Who want CONTRIBUTING
