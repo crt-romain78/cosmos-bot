@@ -221,7 +221,7 @@ client.on('voiceStateUpdate', (old, New) => {
 })
 
 client.on('ready', () => {
-var channel = client.channels.cache.get('812592647876247579');
+var channel = client.channels.cache.get('YOUR ID');
     if (channel) channel.join();
 });
 
@@ -230,7 +230,7 @@ var channel = client.channels.cache.get('812592647876247579');
 
 client.on
 client.on("ready", () => {
-    client.user.setActivity(`qhelp |Servers Count - ${client.guilds.cache.size}`, { type: "WATCHING"})
+    client.user.setActivity(`created by CRT-ROMAIN78`, { type: "WATCHING"})
 })
 
 
