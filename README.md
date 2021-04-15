@@ -11,4 +11,3 @@ then do node server.js
 cool your bot is on. 
 if you need help you can join my [SUPPORT SERVER](https://discord.com/api/oauth2/authorize?client_id=825863213497319465&redirect_uri=https%3A%2F%2Fdsc.gg%2Fcrt%2F&response_type=code&scope=identify) or you an add me on discord: crt-romain78ツ#0001
 
-<iframe src="https://discord.com/widget?id=823577844097220650&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
