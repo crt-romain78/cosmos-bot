@@ -5,7 +5,6 @@ module.exports = {
     name: 'memberjoinleaderboard',
   aliases: ['memberjlb'],
   category: "utility",
-  description: "show the list of the bots i made",
     run: async(client, message, args) => {
         const members = message.guild.members.cache
             .filter((m) => !m.user.bot)
@@ -28,6 +27,8 @@ module.exports = {
                         .setTitle('Join Leaderboard in ' + message.guild.name)
                         .setDescription(description)
                         .setColor('RANDOM')
+                         .setFooter(`[cosmos open source bot](https://github.com/crt-romain78/cosmos-bot)`)
+                    
                 )
             }
             ReactionPages(message, arry, true)
