@@ -13,14 +13,14 @@ module.exports = {
         let user = args[0];
         let text = args.slice(1).join(" ");
 
-        let m = await message.channel.send("<a:1974typing:828211856316432446> | **Please wait...**");
+        let m = await message.channel.send("**Please wait...**");
 
         if(!user){
-            return m.edit("<a:Missing_perms:826125661264543835> **You Have To Enter Someone's Twitter Nickname!**");
+            return m.edit("**You Have To Enter Someone's Twitter Nickname!**");
         }
 
         if(!text){
-            return m.edit("<a:Missing_perms:826125661264543835> **You must enter a message!**");
+            return m.edit("**You must enter a message!**");
         }
 
         try {
@@ -30,7 +30,7 @@ module.exports = {
             await message.channel.send(`**New tweet published by ${user}**`, attachment);
             m.delete({ timeout: 5000});
         } catch(e){
-            m.edit("<a:Missing_perms:826125661264543835> Error, Try Again! Mention Someone");
+            m.edit(" Error, Try Again! Mention Someone");
         }
     }
 };
