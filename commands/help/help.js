@@ -46,7 +46,7 @@ module.exports = {
         .setTitle("📬 Need help? Here are all of my commands:")
         .addFields(categories)
         .setDescription(
-          `Use \`${prefix}cmds\` followed by a command name to get more additional information on a command. For example: \`${prefix}cmds ban\`.`
+          `[cosmos open source bot](https://github.com/crt-romain78/cosmos-bot) Use \`${prefix}cmds\` followed by a command name to get more additional information on a command. For example: \`${prefix}cmds ban\`.`
         )
         .setFooter(
           `Requested by ${message.author.tag}`,
