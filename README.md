@@ -12,16 +12,16 @@ there you go
 -node server.js
 
 # run the preject
--edit the .env file and put your actual token
--edit the config.json and put your prefix
+- edit the .env file and put your actual token
+- edit the config.json and put your prefix
 
 # Module used
--quick.db
--moment
--discord.js
--node-fetch
--twemoji-parser
--ms
+- quick.db
+- moment
+- discord.js
+- node-fetch
+- twemoji-parser
+- ms
 # help
 
 
